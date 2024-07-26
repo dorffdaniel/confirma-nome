@@ -8,6 +8,6 @@ criaçao de uma confirmaçao de nome especifica, projeto criado com o foco de de
 encontrei dificuldade em alguns pontos, como por exemplo pegar o valor que seria acrecentado dentro do input e o uso da imagem quando aparece o erro.
 
 ## Tecnologias usadas
-- HTML
-- CSS
-- JAVASCRIPT
+<img src="img-tecnologias/html-5.png">
+<img src="img-tecnologias/css-3 (1).png">
+<img src="img-tecnologias/js.png">
