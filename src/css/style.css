@@ -4,7 +4,7 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url(codin.jpg);
+    background-image: url(../imagens/codin.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -20,16 +20,22 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     border: 4px solid #000;
-    padding: 20px;
-    background-color: #296b05;
+    padding: 1em;
+    background-color: #443f26;
 }
 
-input{
+.content label{
+    font-size: 1.5em;
+    text-align: left;
+    width: 100%;
+}
+
+.content input{
     width: 200px;
     font-size: 25px;
     text-align: center;
+    margin-bottom: 1em;
     outline: none;
     border: 1px solid #000 ;
 }
@@ -41,7 +47,7 @@ input{
 .divimg img{
     margin-top: 20px;
     width: 800px;
-    height: 600px;
+    height: 22em;
     object-fit: cover;
 }
 
@@ -49,6 +55,8 @@ input{
     width: 90px;
     height: 30px;
     font-size: 20px;
+    border-radius: 0.8em;
+    border: none;
 }
 
 .btn:hover{

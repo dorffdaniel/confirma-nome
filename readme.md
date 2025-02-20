@@ -1,5 +1,5 @@
 # Projeto
-<img src="design/design.check.gif">
+<img src="src/design/design.check.gif">
 
 ## Sobre
 criaçao de uma confirmaçao de nome especifica, projeto criado com o foco de desenvolver minhas habilidades na linguagem de Javascript com base em meus conhecimentos.
