@@ -4,7 +4,8 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    background-image: url(../imagens/codin.jpg);
+    background-image: url(../imagens/background.jpg);
+    background-position: center;
     background-size: cover;
     overflow: hidden;
 }
@@ -29,12 +30,13 @@ body{
     font-size: 1.5em;
     text-align: left;
     width: 100%;
+    color: rgb(166, 167, 168);
 }
 
 .content input{
     width: 200px;
     font-size: 25px;
-    text-align: center;
+    padding-left: 0.2em;
     margin-bottom: 1em;
     outline: none;
     border: 1px solid #000 ;
@@ -48,6 +50,7 @@ body{
     margin-top: 20px;
     width: 800px;
     height: 22em;
+    border-radius: 0.5em;
     object-fit: cover;
 }
 
@@ -57,6 +60,7 @@ body{
     font-size: 20px;
     border-radius: 0.8em;
     border: none;
+    cursor: pointer;
 }
 
 .btn:hover{
