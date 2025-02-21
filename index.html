@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
-    <img class="erroimg" id="erro" src="src/imagens/error.png" alt=""> 
+    <main>
+        <section>
+            <div id="caixa" class="content">
+                <label for="nome">nome de acesso: </label>
+                <input id="text" type="text" placeholder="senha">
+                <button class="btn" onclick="clicar()">checar</button>
+                <p class="res"></p>
 
-        <div id="caixa" class="content">
-            <label for="nome">nome de acesso: </label>
-            <input id="text" type="text" placeholder="senha">
-            <button class="btn" onclick="clicar()">checar</button>
-            <p id="res"></p>
+                <div class="erro">
+                    <div class="fechar">
+                        <button class="btnFechar">x</button>
+                    </div>
+                    <p>erro</p>
+                </div>
+            </div>
+        </section>
+        <div class="divimg" id="imgdiv">
+            <img src="src/imagens/pexels-ippo-2678301.jpg" alt="tesouro">
         </div>
-
-    <div class="divimg" id="imgdiv">
-        <img src="src/imagens/pexels-ippo-2678301.jpg" alt="tesouro">
-    </div>
+    </main>
     <script src="src/js/index.js"></script>
 </body>
+
 </html>
